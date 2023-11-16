@@ -39,6 +39,8 @@ dependencies:
   connectivity_plus: ^4.0.2
   dart_ipify: ^1.1.1
   freezed_annotation: ^2.4.1
+  bloc: ^8.1.2
+  dartz: ^0.10.1
 
 dev_dependencies:
   flutter_test:
