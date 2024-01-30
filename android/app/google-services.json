@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "535536660400",
+    "project_id": "todo-minimal-eca70",
+    "storage_bucket": "todo-minimal-eca70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535536660400:android:5e679201a563b6a0007075",
+        "android_client_info": {
+          "package_name": "com.todo.minimal.mobx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535536660400-dp513vnhmt6r0rr8b7mrabk0ajrf31id.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.todo.minimal.mobx",
+            "certificate_hash": "cedc202df44c604d7ef658c640c16f893f9155b7"
+          }
+        },
+        {
+          "client_id": "535536660400-j2ui31v1s40d0eboo1t5p9fis2hjb1v6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnwkeENkB_KOlbIoTGNpzFp5AP0u3Qylc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535536660400-j2ui31v1s40d0eboo1t5p9fis2hjb1v6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535536660400:android:e1aa845fe68df1e1007075",
+        "android_client_info": {
+          "package_name": "com.todominimalista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535536660400-j2ui31v1s40d0eboo1t5p9fis2hjb1v6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnwkeENkB_KOlbIoTGNpzFp5AP0u3Qylc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535536660400-j2ui31v1s40d0eboo1t5p9fis2hjb1v6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+name: minimaltodoapp
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0-139.0.dev <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  mobx: ^2.2.1
+  flutter_mobx: ^2.0.6+5
+  http: ^1.1.0
+
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.2
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  mobx_codegen: ^2.1.1
+  derry: ^1.5.0
+
+flutter:
+  uses-material-design: true
+
+scripts: scripts.yaml
