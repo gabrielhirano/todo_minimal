@@ -71,6 +71,6 @@ mixin AppTypography {
   static const typographyParagrapExtraLargeBold = TextStyle(
     fontSize: 20,
     fontFamily: fontFamily,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w700,
   );
 }

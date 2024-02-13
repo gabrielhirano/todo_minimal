@@ -37,7 +37,7 @@ enum AppTextStyle {
   paragraphExtrLarge(AppTypography.typographyParagrapExtraLarge),
 
   /// fontSize: 20 / fontWeight: w600
-  paragraphExtrLargeBold(AppTypography.typographyParagraphLargeBold);
+  paragraphExtrLargeBold(AppTypography.typographyParagrapExtraLargeBold);
 
   const AppTextStyle(this.appTypographyStyle);
   final TextStyle appTypographyStyle;
@@ -76,7 +76,13 @@ class AppText extends StatelessWidget {
         showCursor: false,
       );
     }
-    return Text(_formattedText, style: _fromAppStyle, overflow: textOverflow, textAlign: textAlign, maxLines: maxLines);
+    return Text(
+      _formattedText,
+      style: _fromAppStyle,
+      overflow: textOverflow,
+      textAlign: textAlign,
+      maxLines: maxLines,
+    );
   }
 
   String get _formattedText {
@@ -86,10 +92,14 @@ class AppText extends StatelessWidget {
   TextStyle get _fromAppStyle {
     TextStyle convertedTextStyle = textStyle.appTypographyStyle;
 
-    convertedTextStyle = convertedTextStyle.copyWith(color: textColor ?? Colors.black); // definir uma variavel de color para text
+    convertedTextStyle = convertedTextStyle.copyWith(
+      color: textColor ?? Colors.black,
+      // fontFamily: 'Roboto',
+    ); // definir uma variavel de color para text
 
     if (textDecoration != null) {
-      convertedTextStyle = convertedTextStyle.copyWith(decoration: textDecoration);
+      convertedTextStyle =
+          convertedTextStyle.copyWith(decoration: textDecoration);
     }
     return convertedTextStyle;
   }
